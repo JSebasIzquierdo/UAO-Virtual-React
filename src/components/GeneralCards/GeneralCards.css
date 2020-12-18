@@ -1,0 +1,39 @@
+.o-uao-repository-general-card .o-uao-repository-link{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    max-width: 22rem;
+    height: 20rem;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    
+    margin: 1em;
+    position: relative;
+    text-decoration: none;
+}
+
+.o-uao-repository-general-card:hover{
+    filter: brightness(85%);
+    transition: 0.3s;
+}
+
+.o-uao-repository-date{
+    font-size: .8rem;
+    align-self: start;
+    color:  #5d5d5d;
+}
+
+.o-uao-repository-authors{
+    font-size: .8rem;
+    align-self: start;
+    color:  #5d5d5d;
+}
+
+.o-uao-repository-bottom-card{
+    padding: 0 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

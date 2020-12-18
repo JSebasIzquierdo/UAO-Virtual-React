@@ -1,0 +1,21 @@
+.o-uao-repository-header{
+    height: 4rem;
+    background: #0A0A0A;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+}
+
+.o-uao-repository-header-left{
+    display: flex;
+    align-items: center;
+}
+
+.o-uao-repository-header .o-uao-repository-search-container{
+    margin: 0 1rem;
+}

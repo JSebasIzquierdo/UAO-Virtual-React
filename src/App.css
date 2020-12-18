@@ -1,0 +1,26 @@
+body p, body span, body h1, body h2, body h3, body h4, body h5, body h6{
+    font-family: raleway,sans-serif;
+}
+
+.o-uao-repository-content{
+    padding-top: 4rem;
+}
+
+.o-uao-multimedia-repository a{
+    text-decoration: none;
+}
+
+.o-uao-multimedia-repository{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.white-text{
+    color: white;
+}
+
+.o-uao-mutimedia-repository-top{
+    margin-bottom: 2rem;
+}

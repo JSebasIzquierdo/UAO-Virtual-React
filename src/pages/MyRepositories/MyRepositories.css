@@ -1,0 +1,26 @@
+.myrepositories .o-uao-repository-title{
+    text-align: left;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+}
+
+.myrepositories .o-search-input{
+    height: 2rem;
+    width: 100%;
+    padding: 0 .5rem;
+    border: none;
+    border-radius: .5rem 0 0 .5rem;
+    background: #eee;
+    transition: all .3s;
+}
+
+.myrepositories .o-search-input[type=text]:focus, .myrepositories .o-search-input[type=text]:valid{
+    outline: none;
+    width: 100%;
+    background: rgb(230, 230, 230);
+    color: black;
+}
+
+.o-uao-repository-cards-section-categories{
+    padding: 0rem 2rem;
+}
